@@ -1,0 +1,48 @@
+\contentsline {chapter}{\numberline {1}ทบทวนความรู้พื้นฐานทางเรขาคณิต}{1}{}%
+\contentsline {section}{\numberline {1.1}จุด เส้นตรงและมุม}{4}{}%
+\contentsline {section}{\numberline {1.2}วงกลม}{11}{}%
+\contentsline {subsection}{\numberline {1.2.1}เส้นสัมผัสวงกลม}{21}{}%
+\contentsline {section}{\numberline {1.3}พื้นที่สามเหลี่ยม, สี่เหลี่ยม และวงกลม}{24}{}%
+\contentsline {subsection}{\numberline {1.3.1}พื้นที่สามเหลี่ยม}{24}{}%
+\contentsline {subsection}{\numberline {1.3.2}พื้นที่วงกลม}{25}{}%
+\contentsline {subsection}{\numberline {1.3.3}พื้นที่สี่เหลี่ยม}{26}{}%
+\contentsline {section}{\numberline {1.4}อัตราส่วนของสามเหลี่ยมและสามเหลี่ยมคล้าย}{32}{}%
+\contentsline {subsection}{\numberline {1.4.1}อัตราส่วนของสามเหลี่ยม}{32}{}%
+\contentsline {subsection}{\numberline {1.4.2}สามเหลี่ยมคล้าย}{32}{}%
+\contentsline {chapter}{\numberline {2}ทบทวนความรู้พื้นฐานเรื่องการแปรผัน}{39}{}%
+\contentsline {section}{\numberline {2.1}การแปรผัน}{39}{}%
+\contentsline {subsection}{\numberline {2.1.1}การแปรผันตรง}{39}{}%
+\contentsline {subsection}{\numberline {2.1.2}การแปรผกผัน}{40}{}%
+\contentsline {subsection}{\numberline {2.1.3}การแปรผันเกี่ยวเนื่อง}{40}{}%
+\contentsline {chapter}{\numberline {3}ทบทวนความรู้พื้นฐานเรื่องตรีโกณมิติ}{45}{}%
+\contentsline {section}{\numberline {3.1}ตรีโกณมิติเบื้องต้น}{45}{}%
+\contentsline {subsection}{\numberline {3.1.1}องศาและเรเดียน}{45}{}%
+\contentsline {section}{\numberline {3.2}กฏของกฎของไซน์และโคไซน์}{48}{}%
+\contentsline {chapter}{\numberline {4}ทบทวนความรู้พื้นฐานเรื่องเซต}{51}{}%
+\contentsline {section}{\numberline {4.1}การดำเนินการทางเซต}{51}{}%
+\contentsline {subsection}{\numberline {4.1.1}ยูเนียน}{51}{}%
+\contentsline {subsection}{\numberline {4.1.2}อินเตอร์เซก}{52}{}%
+\contentsline {subsection}{\numberline {4.1.3}ผลต่างของเซต}{52}{}%
+\contentsline {subsection}{\numberline {4.1.4}คอมพลีเมนต์ของเซต}{53}{}%
+\contentsline {chapter}{\numberline {5}ทบทวนความรู้พื้นฐานเรื่องจำนวนจริง}{57}{}%
+\contentsline {section}{\numberline {5.1}พหุนาม}{57}{}%
+\contentsline {subsection}{\numberline {5.1.1}การดำเนินการเกี่ยวกับพหุนาม}{57}{}%
+\contentsline {subsection}{\numberline {5.1.2}การหารสังเคราะห์}{68}{}%
+\contentsline {subsection}{\numberline {5.1.3}ทฤษฎีบทเศษเหลือ}{70}{}%
+\contentsline {section}{\numberline {5.2}สมการตัวแปรเดียว $ax^2+bx+c=0$ เมื่อ $a\neq 0$}{72}{}%
+\contentsline {subsection}{\numberline {5.2.1}ผลบวกรากและผลคูณรากของสมการ $ax^2+bx+c=0$ เมื่อ $a\neq 0$}{72}{}%
+\contentsline {chapter}{\numberline {6}ทบทวนความรู้พื้นฐานเรื่องตรีโกณมิติ}{76}{}%
+\contentsline {section}{\numberline {6.1}อัตราส่วนตรีโกณมิติ}{76}{}%
+\contentsline {subsection}{\numberline {6.1.1}ค่าฟังก์ชันตรีโกณมิติของมุมพื้นฐาน}{78}{}%
+\contentsline {section}{\numberline {6.2}องศาและเรเดียน}{79}{}%
+\contentsline {section}{\numberline {6.3}ทบทวนสูตรตรีโกณมิติที่จำเป็น}{80}{}%
+\contentsline {subsection}{\numberline {6.3.1}โคฟังก์ชัน}{80}{}%
+\contentsline {subsection}{\numberline {6.3.2}เอกลักษณ์ตรีโกณมิติ}{80}{}%
+\contentsline {subsection}{\numberline {6.3.3}ฟังก์ชันตรีโกณมิติของมุมสองเท่า}{80}{}%
+\contentsline {subsection}{\numberline {6.3.4}ฟังก์ชันตรีโกณมิติของผลบวกและผลต่างของมุม}{80}{}%
+\contentsline {section}{\numberline {6.4}การแปลงมุมในรูปอย่างง่าย}{82}{}%
+\contentsline {subsection}{\numberline {6.4.1}เครื่องหมายและจตุภาค (ควอดรันท์)}{82}{}%
+\contentsline {subsection}{\numberline {6.4.2}การวัดมุม}{84}{}%
+\contentsline {subsection}{\numberline {6.4.3}มุมคู่ $\mitpi $ และมุมคี่ $\mitpi $}{86}{}%
+\contentsline {subsection}{\numberline {6.4.4}ค่าฟังก์ชันตรีโกณมิติของมุมเรเดียนในรูป $2n\mitpi \pm \mittheta $ และ $(2n+1)\mitpi \pm \mittheta $ เมื่อ $n$ เป็นจำนวนเต็มไม่ลบ}{87}{}%
+\contentsline {section}{\numberline {6.5}กฎของโคไซน์และกฎของไซน์}{99}{}%

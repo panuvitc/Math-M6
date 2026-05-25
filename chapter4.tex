@@ -1,0 +1,147 @@
+\chapter{ทบทวนความรู้พื้นฐานเรื่องเซต}
+\section{การดำเนินการทางเซต}
+กำหนดให้ $\mathcal{U}$ แทนเอกภพสัมพัทธ์ และให้ $A,B$ เป็นเซตย่อยของ $\mathcal{U}$
+\subsection{ยูเนียน}
+\noindent
+ให้ $A$ และ $B$ เป็นเซต  
+\textbf{ยูเนียนของเซต $A$ และ $B$} แทนด้วยสัญลักษณ์ $A \cup B$  
+หมายถึง เซตของสมาชิกทั้งหมดที่อยู่ในเซต $A$ หรือเซต $B$ หรืออยู่ในทั้งสองเซตร่วมกัน
+
+\begin{examplebox}\label{example2.1}
+\begin{align*}
+\{1,2,3\} \cup \{2,3,4\} &= \{1,2,3,4\}\\
+\{3,5\} \cup \{2,3,5\} &= \{2,3,5\}\\
+\{1,3,5\} \cup \{2,4,6\} &= \{1,2,3,4,5,6\} \\
+\{1,2\} \cup \varnothing &= \{1,2\}
+\end{align*}
+\end{examplebox}
+
+จากตัวอย่าง~\ref{example2.1} จะได้สมบัติที่สำคัญคือ  
+\[
+A \cup \varnothing = A 
+\quad \text{และ} \quad 
+A \cup \mathcal{U} = \mathcal{U}
+\]
+
+\newpage
+\subsection{อินเตอร์เซก}
+\noindent
+ให้ $A$ และ $B$ เป็นเซต  
+\textbf{อินเตอร์เซกของเซต $A$ และ $B$} แทนด้วยสัญลักษณ์ $A \cap B$  
+หมายถึง เซตของสมาชิกที่อยู่ร่วมกันในทั้งเซต $A$ และเซต $B$
+
+\begin{examplebox}\label{example2.2}
+\begin{align*}
+\{1,2,3\} \cap \{2,3,4\} &= \{2,3\}\\
+\{3,5\} \cap \{2,3,5\} &= \{3,5\}\\
+\{1,3,5\} \cap \{2,4,6\} &= \varnothing \\
+\{1,2\} \cap \varnothing &= \varnothing
+\end{align*}
+\end{examplebox}
+
+จากตัวอย่าง~\ref{example2.2} จะได้สมบัติว่า  
+\[
+A \cap \varnothing = \varnothing 
+\quad \text{และ} \quad 
+A \cap \mathcal{U} = A
+\]
+
+
+\subsection{ผลต่างของเซต}
+\noindent
+ให้ $A$ และ $B$ เป็นเซต  
+\textbf{ผลต่างของเซต $A$ กับ $B$} แทนด้วยสัญลักษณ์ $A-B$  
+หมายถึง เซตของสมาชิกที่อยู่ในเซต $A$ แต่ไม่อยู่ในเซต $B$
+
+\begin{examplebox}\label{example2.3}
+\begin{align*}
+\{1,2,3\}-\{2,3,4\} &= \{1\}\\  
+\{7,8,9\}-\{8\} &= \{7,9\} \\
+\{1,3,5\}-\{2,4,6\} &= \{1,3,5\}\\
+\{2,3,4\}-\{1,2,3\} &= \{4\} \\
+\{3,5\}-\{2,3,5\} &= \varnothing \\
+\{1,2\}-\varnothing &= \{1,2\}
+\end{align*}
+\end{examplebox}
+
+จากตัวอย่าง~\ref{example2.3} จะได้ว่า  
+\[
+A-\varnothing = A 
+\quad \text{และ} \quad 
+A-\mathcal{U} = \varnothing
+\]
+
+\newpage
+\subsection{คอมพลีเมนต์ของเซต}
+\noindent
+ให้ $A$ เป็นเซตย่อยของเอกภพสัมพัทธ์ $\mathcal{U}$  
+\textbf{คอมพลีเมนต์ของเซต $A$} แทนด้วยสัญลักษณ์ $A^{\prime}$ หรือ $A^c$  
+หมายถึง เซตของสมาชิกทั้งหมดใน $\mathcal{U}$ ที่ไม่อยู่ในเซต $A$
+
+กล่าวคือ
+\[
+A^{\prime} = A^c = \mathcal{U}-A
+\]
+
+\begin{examplebox}\label{example2.4}
+กำหนดให้ $\mathcal{U}=\{1,2,3,4,5\}$
+\begin{align*}
+\{1,2,3\}^c &= \{4,5\}\\  
+\{1,4\}^c &= \{2,3,5\}\\ 
+\mathcal{U}^c &= \varnothing\\ 
+\varnothing^c &= \mathcal{U}
+\end{align*}
+\end{examplebox}
+
+จากตัวอย่าง~\ref{example2.4} จะเห็นว่า  
+\[
+\mathcal{U}^c=\varnothing 
+\quad \text{และ} \quad 
+\varnothing^c=\mathcal{U}
+\]
+
+\newpage
+\begin{examplebox}[NETSAT คณิตศาสตร์ สิงหาคม 2565]
+กำหนดให้ $A=\{1,3,5,7,9\}$ และ $B=\{2,3,4,5,6\}$  
+ข้อใดถูกต้อง
+\begin{enumerate}
+\item $A \cap B=\{3,5\}$
+\item $A \cup B$ มีจำนวนสมาชิก $10$ ตัว
+\item $A-B=B-A$
+\item ถูกต้องทั้งข้อ 1, 2 และ 3
+\end{enumerate}
+\end{examplebox}
+
+\newpage
+\begin{examplebox}[NETSAT คณิตศาสตร์ 2566]
+กำหนดให้ $A=\{1,3,4,8\}$ และ $B=\{2,3,5,8,9\}$  
+ข้อใดถูกต้อง
+\begin{enumerate}
+\item $A-B=B-A$
+\item $A \cup B$ มีจำนวนสมาชิก $9$ ตัว
+\item $A \cap B=\{3,8\}$
+\item ถูกต้องทั้งข้อ 1, 2 และ 3
+\end{enumerate}
+\end{examplebox}
+
+\newpage
+\begin{remarkbox}[หลักการรวมเข้า–เอาออก]
+ให้ $A,B$ และ $C$ เป็นเซตจำกัด โดยมีจำนวนสมาชิกเท่ากับ $n(A), n(B)$ และ $n(C)$ ตามลำดับ
+\begin{itemize}
+\item $n(A\cup B)=n(A)+n(B)-n(A\cap B)$
+\item $n(A\cup B\cup C)=n(A)+n(B)+n(C)-n(A\cap B)-n(B\cap C)-n(C\cap A)+n(A\cap B\cap C)$
+\end{itemize}
+\end{remarkbox}
+
+
+\begin{examplebox}[NETSAT คณิตศาสตร์ สิงหาคม 2568]
+มีนักเรียน $50$ คน เลือกเข้าชมรม $3$ ชมรม คือ ดนตรี ศิลปะ และกีฬา  
+โดยนักเรียนแต่ละคนต้องเลือกอย่างน้อย $1$ ชมรม แต่ไม่เกิน $2$ ชมรม และมีเงื่อนไขดังนี้
+\begin{itemize}
+\item จำนวนนักเรียนที่เลือกชมรม $2$ ชมรมใด ๆ มีจำนวนเท่ากัน
+\item นักเรียนที่เลือกกีฬามี $20$ คน
+\item นักเรียนที่เลือกศิลปะมี $15$ คน
+\item นักเรียนที่เลือกศิลปะเพียงชมรมเดียวมี $7$ คน
+\end{itemize}
+จงหาจำนวนนักเรียนที่เลือกกีฬาเพียงชมรมเดียว
+\end{examplebox}
